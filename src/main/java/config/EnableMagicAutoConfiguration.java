@@ -9,8 +9,7 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-@Import({ TomcatConfiguration.class, DispatcherServletConfiguration.class,
-        MvcConfiguration.class })
+@Import(MagicAutoConfigurationImportSelector.class)
 public @interface EnableMagicAutoConfiguration {
 
 }
