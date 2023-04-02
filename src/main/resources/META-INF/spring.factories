@@ -2,4 +2,6 @@ config.EnableMagicAutoConfiguration=\
 config.TomcatConfiguration,\
 config.UndertowConfiguration,\
 config.DispatcherServletConfiguration,\
-config.MvcConfiguration
+config.MvcConfiguration,\
+config.PropertyPlaceholderConfiguration
+
