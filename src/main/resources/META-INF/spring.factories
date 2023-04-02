@@ -5,3 +5,5 @@ config.DispatcherServletConfiguration,\
 config.MvcConfiguration,\
 config.PropertyPlaceholderConfiguration
 
+org.springframework.boot.env.EnvironmentPostProcessor=\
+config.MagicPropertiesPostProcessor
